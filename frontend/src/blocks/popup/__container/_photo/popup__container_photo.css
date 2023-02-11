@@ -1,0 +1,16 @@
+.popup__container_photo {
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 240px;
+}
+
+@media screen and (min-width:900px) {
+  .popup__container_photo {
+    max-width: 816px;
+  }
+}
+
