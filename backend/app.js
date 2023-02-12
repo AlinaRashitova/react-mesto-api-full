@@ -31,7 +31,7 @@ const limiter = rateLimit({
 const allowedCors = [
   'https://mestoproj.nomoredomainsclub.ru',
   'http://mestoproj.nomoredomainsclub.ru',
-  'http://localhost:3000',
+  'http://localhost:3001',
 ];
 
 mongoose.set('strictQuery', false);
@@ -68,7 +68,6 @@ app.use((req, res, next) => {
   }
 
   next();
-  return null;
 });
 
 app.use(requestLogger);

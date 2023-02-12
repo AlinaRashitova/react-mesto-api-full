@@ -82,7 +82,8 @@ class Api {
 }
 
 export const api = new Api({
-  baseUrl: "http://api.mestoproj.nomoredomainsclub.ru",
+  baseUrl: "http://localhost:3000",
+  //"http://api.mestoproj.nomoredomainsclub.ru",
   headers: {
     "Content-Type": "application/json",
   },
