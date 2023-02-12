@@ -1,5 +1,5 @@
-export const BASE_URL = "http://localhost:3000";
-//"http://api.mestoproj.nomoredomainsclub.ru";
+export const BASE_URL = "http://api.mestoproj.nomoredomainsclub.ru";
+//"http://localhost:3000";
 
 function checkResponse(response) {
   if (!response.ok) {
