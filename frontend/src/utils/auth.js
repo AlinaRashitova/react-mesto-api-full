@@ -1,4 +1,4 @@
-export const BASE_URL = "http://api.mestoproj.nomoredomainsclub.ru";
+export const BASE_URL = "https://api.mestoproj.nomoredomainsclub.ru";
 //"http://localhost:3001";
 
 function checkResponse(response) {
